@@ -9,6 +9,7 @@
 #include <dt-bindings/zmk/keys.h>
 
 #include "zmk-helpers/helper.h"
+#include "zmk-helpers/key-labels/42.h"
 
 /* left-hand HRMs */
 ZMK_HOLD_TAP(hml,
