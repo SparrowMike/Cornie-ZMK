@@ -12,20 +12,6 @@
 #include "./includes/combos.dtsi"
 
 / {
-    combos {
-        compatible = "zmk,combos";
-
-        escape {
-            bindings = <&kp ESCAPE>;
-            key-positions = <12 27>;
-        };
-
-        rightshift {
-            bindings = <&kp RIGHT_SHIFT>;
-            key-positions = <41 35>;
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
