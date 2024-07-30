@@ -16,7 +16,7 @@
         bhm: balanced_homerow_mods {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
-            tapping-term-ms = <190>;    // <---[[moderate duration]]
+            tapping-term-ms = <150>;    // <---[[moderate duration]]
             quick-tap-ms = <0>;
             flavor = "balanced";
             bindings = <&kp>, <&kp>;
@@ -108,7 +108,7 @@
 &trans  &kp EXCL      &kp AT        &kp HASH      &kp DLLR      &kp PRCNT       &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR          &kp RPAR           &trans
 &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5    &kp MINUS  &kp EQUAL  &kp GRAVE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans
 &trans  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp N9        &kp NUMBER_0    &kp UNDER  &kp PLUS   &kp TILDE  &kp PIPE          &kp BACKSLASH      &trans
-                                    &trans        &trans        &trans          &trans     &mo 2      &trans
+                                    &trans        &trans        &trans          &trans     &trans     &trans
             >;
         };
 
